@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS
+postal_codes (
+  id          BIGINT PRIMARY KEY AUTO_INCREMENT,
+  code7 VARCHAR(7) NOT NULL,
+  address1 VARCHAR(12) NOT NULL,
+  address2 VARCHAR(60),
+  address3 VARCHAR(60)
+  );

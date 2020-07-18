@@ -1,0 +1,13 @@
+# properties: https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2-consolea
+      settings:
+        web-allow-others: true
+  jpa:
+    show-sql: true # for debugging-purpose only. Because it shows everything, there's no ways to filter.
+    properties:
+      hibernate:
+        format_sql: true
