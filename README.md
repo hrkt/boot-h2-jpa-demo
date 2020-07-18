@@ -3,7 +3,7 @@
 A demo project to query Japanese postal code, using SpringBoot + H2 DB + Spring Data JPA, REST
 
 
-Related Qiita Entry: https://qiita.com/7a70f4c4379ad0e6f795
+Related Qiita Entry: https://qiita.com/hrkt/items/7a70f4c4379ad0e6f795
 
 
 # Build
